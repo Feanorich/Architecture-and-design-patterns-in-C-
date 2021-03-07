@@ -23,10 +23,6 @@ namespace Asteroids
 
         public void Move(float horizontal, float vertical, float deltaTime)
         {
-            //IEngine engine = new KinematicEngine();
-            //IEngine engine = new DynamicEngine();
-            //engine.MoveObject(ref _transform, horizontal, vertical, Speed, deltaTime);
-
             MoveObject(_transform, horizontal, vertical, Speed, deltaTime);
         }
     }
